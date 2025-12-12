@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Mouliya-1213/router1.git",
   "name": "router1",
   "version": "0.1.0",
   "private": true,
@@ -9,10 +10,13 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "react-router-dom": "^7.10.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run builder",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
